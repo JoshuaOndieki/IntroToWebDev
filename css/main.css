@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+}
+
+div {
+    border: 2px dotted magenta;
+    /*border-style: dotted;
+    border-width: 2px;
+    border-color: magenta;*/
+}
+
+#header{
+    width: 100%;
+    height: auto;
+    /*background-color: black;
+    color: white;*/
+    border: none;
+    background-image: url("../static/movieline.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top left;
+    text-align: center;
+    background-attachment: fixed;
+
+    border-top: 3px solid teal;
+    border-bottom: 2px dotted gold;
+    border-left: 1px ridge grey;
+    border-right: 0px dashed red;
+}
+
+#nav{
+    margin: 10px;
+
+}
+
+#quick{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+#welcome{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+#login{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+#latest{
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+#footer{
+    background-color: black;
+    color: gold;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+    padding: 14px 25px;
+}
+
+/*Normal link styles*/
+a:link{
+    background-color: black;
+    color: white;
+}
+
+/*Visited link styles*/
+a:visited{
+    background-color: grey;
+}
+
+/*Styles when user moves cursor on top of a link*/
+a:hover{
+    background-color: green;
+    color: white;
+}
+
+/*Styles for current clicked link*/
+a:active{
+    background-color: red;
+    color: white;
+}
