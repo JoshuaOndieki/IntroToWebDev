@@ -1,19 +1,14 @@
-body{
+body, html{
     width: 100%;
 }
 
 div {
     border: 2px dotted magenta;
-    /*border-style: dotted;
-    border-width: 2px;
-    border-color: magenta;*/
 }
 
 #header{
     width: 100%;
     height: auto;
-    /*background-color: black;
-    color: white;*/
     border: none;
     background-image: url("../static/movieline.png");
     background-repeat: no-repeat;
@@ -98,4 +93,28 @@ a:hover{
 a:active{
     background-color: red;
     color: white;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: grey;
+    color: black;
+}
+
+tr:hover{
+    background-color: black;
+    color: gold;
+}
+
+tr:first-child{
+    background-color: teal;
+}
+
+td, th{
+    border-bottom: 1px solid green;
+    padding: 14px;
 }
